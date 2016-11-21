@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiChat.Server", "WebApiChat.Server\WebApiChat.Server.csproj", "{D10A3EFB-0191-4483-9191-3D0168811FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiChat.Core", "WebApiChat.Core\WebApiChat.Core.csproj", "{42A82F32-C166-4457-85F5-323469DF227F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D10A3EFB-0191-4483-9191-3D0168811FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10A3EFB-0191-4483-9191-3D0168811FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10A3EFB-0191-4483-9191-3D0168811FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A82F32-C166-4457-85F5-323469DF227F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A82F32-C166-4457-85F5-323469DF227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A82F32-C166-4457-85F5-323469DF227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A82F32-C166-4457-85F5-323469DF227F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,8 +11,6 @@ namespace WebApiChat.Server
 {
     public class Startup
     {
-        #region public methods
-
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
@@ -34,7 +32,5 @@ namespace WebApiChat.Server
                 return context.Response.WriteAsync(output);
             });
         }
-
-        #endregion
     }
 }
