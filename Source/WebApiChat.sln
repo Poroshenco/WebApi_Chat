@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiChat.Server", "WebApi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiChat.Core", "WebApiChat.Core\WebApiChat.Core.csproj", "{42A82F32-C166-4457-85F5-323469DF227F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{5E7B388D-EF15-47CD-86B0-E672877522B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{42A82F32-C166-4457-85F5-323469DF227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A82F32-C166-4457-85F5-323469DF227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A82F32-C166-4457-85F5-323469DF227F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7B388D-EF15-47CD-86B0-E672877522B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7B388D-EF15-47CD-86B0-E672877522B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7B388D-EF15-47CD-86B0-E672877522B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7B388D-EF15-47CD-86B0-E672877522B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
