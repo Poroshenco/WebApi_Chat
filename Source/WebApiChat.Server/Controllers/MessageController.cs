@@ -1,12 +1,13 @@
 ﻿using System.Web.Http;
+using WebApiChat.Core.Models;
 
 namespace WebApiChat.Server.Controllers
 {
     public class MessageController : ApiController
     {
-        public string Get()
+        public Message[] Get(long startId, int count)
         {
-            return "hi";
+            return new Message[5];
         }
     }
 }
